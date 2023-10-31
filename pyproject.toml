@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "prime-yc4307"
+version = "0.1.0"
+description = "Check if a number is prime"
+authors = ["Yifei081 <yc4307@columbia.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sphinx = "^7.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
